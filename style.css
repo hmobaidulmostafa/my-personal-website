@@ -60,7 +60,7 @@ section{
     box-shadow: 2px 2px 6px gray;
     border-radius: 3px;
     height: 150px;
-    background-color: snow;
+    background-color: white;
 }
 .exp p{
     font-size: 9pt;
@@ -163,3 +163,27 @@ footer p{
     color: azure;
     line-height: .5;
 }
+.newsletter-area{
+    height: 60px;
+    margin-top: .3in;
+    margin-right: .5in;
+    text-align: right;
+}
+
+input[type=text], input[type=submit] {
+    width: 25%;
+    align-items: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
