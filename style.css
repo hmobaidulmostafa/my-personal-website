@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    font-family: lato;
+}
+section{
+    height: 620px;
+    padding-bottom: 5%;
+}
+.intro-area{
+    background-image: url(images/background.png);
+    height: 620px;
+    background-repeat: no-repeat;
+}
+.intro{
+    width: 40%;
+    margin-top: .5in;
+    margin-right: .5in;
+    margin-left: .5in;
+    float: left;
+    font-size: 13pt;
+    text-align: justify;
+    line-height: 18pt;
+}
+.intro h2{
+    font-size: 18pt;
+    font-style: italic;
+}
+.intro h1{
+    font-size: 25pt;
+    font-weight: bold;
+    color: #EF4136;
+}
+.contact-me-button{
+    text-decoration: none;
+    background-image: linear-gradient(30deg, #ED1869, #333366);
+    padding: 10px 35px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+.intro img{
+    width: 100%;
+}
+.resume-area{
+    background-image: url(images/right-back.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.skills{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.exp{
+    width: 19%;
+    float: left;
+    margin-left: .32in;
+    text-align: justify;
+    box-shadow: 2px 2px 6px gray;
+    border-radius: 3px;
+    height: 150px;
+    background-color: snow;
+}
+.exp p{
+    font-size: 9pt;
+    color: slategray;
+}
+.exp h2{
+    margin-top: 0;
+    font-size: 15pt;
+    font-weight: bold;
+}
+.exp h3{
+    font-size: 11pt;
+    color: #EF4136;
+}
+.skills-area{
+    height: 250px;
+    width: auto;
+    background-image: url(images/left-back.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#SMM{
+    border-left: 4px solid;
+    border-image: linear-gradient(0deg, #ED1869, #333366);
+    border-image-slice: 1;
+    padding: 13px;
+}
+#GD{
+    border-left: 4px solid;
+    border-image: linear-gradient(0deg, #ED1869, yellow);
+    border-image-slice: 1;
+    padding: 13px;
+}
+#WD{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, #ED1869, #333366);
+    border-image-slice: 1;
+    padding: 13px;
+}
+#ES{
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, #ED1869, yellow);
+    border-image-slice: 1;
+    padding: 13px;
+}
+.latest-work-area{
+    height: 2.5in;
+    width: auto;
+    text-align: center;
+}
+.latest-work-area h1{
+    color: blue;
+    padding-top: 10px;
+}
+.latest-work-area img{ 
+    height: 2in;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.follow-me-area{
+    height: 50px;
+    width: auto;
+    background-image: linear-gradient(90deg, #ED1869, #333366);
+    text-align: center;
+}
+.follow-me-area h1{
+    color: snow;
+    padding-top: 10px;
+}
+.follow-me-area img{ 
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+}
+
+footer p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    color: GREY;
+    padding-top: 5px;
+    padding-bottom: 13px;
+}
