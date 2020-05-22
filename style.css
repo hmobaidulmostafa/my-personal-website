@@ -121,6 +121,10 @@ section{
     margin-right: auto;
     padding: 10px;
 }
+.latest-work-area img:hover{
+    height: 3in;
+    width: auto;
+}
 
 footer p{
     text-align: center;
