@@ -121,22 +121,6 @@ section{
     margin-right: auto;
     padding: 10px;
 }
-.follow-me-area{
-    height: 50px;
-    width: auto;
-    background-image: linear-gradient(90deg, #ED1869, #333366);
-    text-align: center;
-}
-.follow-me-area h1{
-    color: snow;
-    padding-top: 10px;
-}
-.follow-me-area img{ 
-    height: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 3px;
-}
 
 footer p{
     text-align: center;
@@ -146,4 +130,32 @@ footer p{
     color: GREY;
     padding-top: 5px;
     padding-bottom: 13px;
+}
+.follow-contact-area{
+    height: 60px;
+    width: auto;
+    background-image: linear-gradient(90deg, #ED1869, #333366);
+    text-align: center;
+}
+
+.follow-me-zone{
+    width: 48%;
+    padding: 3px;
+    float: left;
+}
+.follow-me-zone h1{
+    font-size: 18pt;
+    color: aliceblue;
+}
+.follow-me-zone img{ 
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+}
+.follow-me-zone p{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    line-height: .5;
 }
